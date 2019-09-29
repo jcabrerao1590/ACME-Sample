@@ -1,12 +1,18 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "sites_ACME_Sample_name": {
-            "value": null
-        },
-        "serverfarms_Galaxy.Linux_externalid": {
-            "value": null
-        }
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appService_ACME-Sample_name": {
+      "value": "ACME-Sample"
+    },
+    "appServicePlan_Galaxy.Linux_location": {
+      "value": "West US"
+    },
+    "appServicePlan_Galaxy.Linux_name": {
+      "value": "Galaxy.Linux"
+    },
+    "appServicePlan_Galaxy.Linux_resourceGroup": {
+      "value": "Galaxy"
     }
+  }
 }
